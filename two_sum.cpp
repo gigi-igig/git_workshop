@@ -8,7 +8,6 @@ vector<int> twoSum(vector<int>& nums, int target) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             if (nums[i] + nums[j] == target) {
-                // found pair
                 return {i, j};
             }
         }
